@@ -13,3 +13,4 @@ gg:
     template-location: src/main/jte
     development-mode: false
     trim-control-structures: false
+    use-precompiled-templates: true
