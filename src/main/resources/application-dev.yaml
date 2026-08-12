@@ -12,3 +12,4 @@ gg:
   jte:
     development-mode: true
     trim-control-structures: true
+    use-precompiled-templates: false
