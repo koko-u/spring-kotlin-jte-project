@@ -1,0 +1,16 @@
+export DATABASE_HOST=localhost
+export DATABASE_PORT=5432
+export DATABASE_USER=pgadmin
+export DATABASE_PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+export DATABASE_NAME=issues_db
+export DATABASE_SSLMODE=disable
+export DATABASE_URL=postgresql://${DATABASE_USER}:${DATABASE_PASSWORD}@${DATABASE_HOST}:${DATABASE_PORT}/${DATABASE_NAME}?sslmode=${DATABASE_SSLMODE}
+
+export PGADMIN_EMAIL=pgadmin@example.com
+export PGADMIN_PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+export DATABASE_TEST_USER=test
+export DATABASE_TEST_PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+export DATABASE_TEST_NAME=issues_test_db
+export DATABASE_TEST_PORT=5434
+export DATABASE_TEST_URL=postgresql://${DATABASE_TEST_USER}:${DATABASE_TEST_PASSWORD}@localhost:${DATABASE_TEST_PORT}/${DATABASE_TEST_NAME}?sslmode=disable
